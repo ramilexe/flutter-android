@@ -4,7 +4,7 @@ ARG FLUTTER_VER="2.2.2-stable"
 
 ENV PATH="/usr/local/bin/flutter/bin:${PATH}"
 # Install and pre-cache Flutter.
-RUN wget https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_${FLUTTER_VER}.tar.xz && \
+RUN wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_${FLUTTER_VER}.tar.xz && \
   tar xf flutter_linux_${FLUTTER_VER}.tar.xz -C /usr/local/bin && \
   rm flutter_linux_${FLUTTER_VER}.tar.xz
 
