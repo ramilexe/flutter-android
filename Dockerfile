@@ -1,6 +1,6 @@
 FROM debian:10.8-slim
 
-ARG FLUTTER_VER="2.2.2-stable"
+ARG FLUTTER_VER="2.5.3-stable"
 
 ENV PATH="/usr/local/bin/flutter/bin:${PATH}"
 # Install and pre-cache Flutter.
