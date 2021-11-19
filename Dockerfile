@@ -1,4 +1,4 @@
-FROM cimg/android:29.0
+FROM cimg/android:2021.08.1
 
 ARG FLUTTER_VER="2.5.3-stable"
 
